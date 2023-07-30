@@ -908,7 +908,7 @@ footer span {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-
+                width: -webkit-fill-available;
 		text-align: justify;
 		margin: auto;
 		width: -moz-available;
@@ -1082,6 +1082,7 @@ footer span {
 	.contact-form {
 		margin-top: 20px;
 		width: moz-available;
+		width: -webkit-fill-available;
 	}
 
 	#contact-form {
